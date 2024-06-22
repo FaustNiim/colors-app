@@ -6,4 +6,6 @@ cd color-app
 
 npm install
 
+To run the code :
+
 npm run dev
