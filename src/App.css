@@ -1,0 +1,73 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.header {
+  width: 100%;
+  text-align: left;
+}
+
+/* color list and preview alignment*/
+.content {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.color-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 300px;
+  float: left;
+  height: 800px;
+  overflow-y: auto;
+}
+
+.color-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.color-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* For the preview BOX*/
+.color-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: flex-start;
+  width: 300px;
+  float: right;
+}
+
+.color-box {
+  width: auto;
+  height: auto;
+  border-radius: 5px;
+  
+}
+
+.color-info {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  width: 400px;
+  height: 250px;
+  text-align: center;
+  justify-content: center;
+  color:white;
+}
